@@ -1,10 +1,11 @@
 Original data:
-	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Description 
-	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Description:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 R Script:
-	https://github.com/MystPang/GettingandCleaningDataCourseProject/blob/master/run_analysis.R
+https://github.com/MystPang/GettingandCleaningDataCourseProject/blob/master/run_analysis.R
 
 #Data description:
 
@@ -21,9 +22,9 @@ activity: activity name in:
 All variables are mean of following column group by subject, activity
 
 Time domain body accelation (x, y, z)
-*meantbodyaccmeanx
-*meantbodyaccmeany
-*meantbodyaccmeanz
+* meantbodyaccmeanx
+* meantbodyaccmeany
+* meantbodyaccmeanz
 	
 Time domain body accelation standard deviation (x, y, z) 
 *meantbodyaccstdx
