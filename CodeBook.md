@@ -1,17 +1,36 @@
-Original data:
+#Code Book
+This code book describes the data, transformations or work performed to clean up the data.
+
+##Data Source
+Source data:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Description:
+##Data Description:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-R Script:
+## R Script:
 https://github.com/MystPang/GettingandCleaningDataCourseProject/blob/master/run_analysis.R
 
-#Data description:
+##Script Requirement:
+* Extract the downloaded zip files to the working directory, make sure the folder name is "UCI HAR Dataset"
+* Package "plyr" is used, "plyr" should be installed before run the script.
 
-subject:  Integer of subject ID
+##Script Description:
+1. merge the the table loaded from "\test\X_test.txt" and table from "\train\X_train.txt" as X
+2. merge the the table loaded from "\test\Y_test.txt" and table from "\train\Y_train.txt" as Y
+3. merge the the table loaded from "\test\subject_test.txt" and table from "\train\subject_train.txt" as S
+4. Load data from features.txt as header of X
+5. Subset the column of X which releted to mean or stand deviation.
+6. Factor the column of Y with the data load from "activity_labels.txt"
+7. Merge S, X, Y
+8. Calcute the means of X columns which group by activity(Y) and subject id (S)
+9. Output to file.
 
-activity: activity name in:
+##Output Data description:
+
+###subject:  Integer of subject ID
+
+###activity: activity name in:
 * walking
 * walkingupstairs
 * walkingdownstairs
@@ -19,7 +38,7 @@ activity: activity name in:
 * standing
 * laying      
 
-#Measured Column
+##Measured Column:
 All variables are mean of following column group by subject, activity
 
 Time domain body accelation (x, y, z)
@@ -157,15 +176,4 @@ Frequency domain body gyromscrope Jerk Mean
 
 Frequency domain body gyromscrope Jerk Standard deviation
 * meanfbodybodygyrojerkmagstd 
-
-#Script Description:
-1. merge the the table loaded from "\test\X_test.txt" and table from "\train\X_train.txt" as X
-2. merge the the table loaded from "\test\Y_test.txt" and table from "\train\Y_train.txt" as Y
-3. merge the the table loaded from "\test\subject_test.txt" and table from "\train\subject_train.txt" as S
-4. Load data from features.txt as header of X
-5. Subset the column of X which releted to mean or stand deviation.
-6. Factor the column of Y with the data load from "activity_labels.txt"
-7. Merge S, X, Y
-8. Calcute the means of X columns which group by activity(Y) and subject id (S)
-9. Output to file.
 
