@@ -9,14 +9,15 @@ https://github.com/MystPang/GettingandCleaningDataCourseProject/blob/master/run_
 
 #Data description:
 
-subject: Integer of subject ID,
+subject:  Integer of subject ID
+
 activity: activity name in:
-	walking
-	walkingupstairs
-	walkingdownstairs
-	sitting
-	standing
-	laying      
+* walking
+* walkingupstairs
+* walkingdownstairs
+* sitting
+* standing
+* laying      
 
 #Measured Column
 All variables are mean of following column group by subject, activity
@@ -27,135 +28,135 @@ Time domain body accelation (x, y, z)
 * meantbodyaccmeanz
 	
 Time domain body accelation standard deviation (x, y, z) 
-*meantbodyaccstdx
-*meantbodyaccstdy
-*meantbodyaccstdz
+* meantbodyaccstdx
+* meantbodyaccstdy
+* meantbodyaccstdz
 
 Time domain gravity accelation mean (x, y, z)
-*meantgravityaccmeanx
-*meantgravityaccmeany
-*meantgravityaccmeanz
+* meantgravityaccmeanx
+* meantgravityaccmeany
+* meantgravityaccmeanz
 
 Time domain gravity accelation standard deviation (x, y, z)
-*meantgravityaccstdx
-*meantgravityaccstdy
-*meantgravityaccstdz
+* meantgravityaccstdx
+* meantgravityaccstdy
+* meantgravityaccstdz
 
 Time domain body accelation jerk mean (x, y, z)
-*meantbodyaccjerkmeanx
-*meantbodyaccjerkmeany
-*meantbodyaccjerkmeanz
+* meantbodyaccjerkmeanx
+* meantbodyaccjerkmeany
+* meantbodyaccjerkmeanz
 
 Time domain body accelation jerk standard deviation (x, y, z)
-*meantbodyaccjerkstdx
-*meantbodyaccjerkstdy
-*meantbodyaccjerkstdz
+* meantbodyaccjerkstdx
+* meantbodyaccjerkstdy
+* meantbodyaccjerkstdz
 
 Time domain body gyroscrope mean (x, y, z)
-*meantbodygyromeanx
-*meantbodygyromeany
-*meantbodygyromeanz
+* meantbodygyromeanx
+* meantbodygyromeany
+* meantbodygyromeanz
 
 Time domain body gyroscrope standard deviation (x, y, z)
-*meantbodygyrostdx
-*meantbodygyrostdy
-*meantbodygyrostdz
+* meantbodygyrostdx
+* meantbodygyrostdy
+* meantbodygyrostdz
 
 Time domain body gyroscrope jerk mean (x, y, z)
-*meantbodygyrojerkmeanx
-*meantbodygyrojerkmeany
-*meantbodygyrojerkmeanz
+* meantbodygyrojerkmeanx
+* meantbodygyrojerkmeany
+* meantbodygyrojerkmeanz
 
 Time domain body gyroscrope jerk standard deviation (x, y, z)
-*meantbodygyrojerkstdx
-*meantbodygyrojerkstdy
-*meantbodygyrojerkstdz
+* meantbodygyrojerkstdx
+* meantbodygyrojerkstdy
+* meantbodygyrojerkstdz
 
 Time domain body acceleration magnitude mean
-*meantbodyaccmagmean
+* meantbodyaccmagmean
 
 Time domain body acceleration standard deviation
-*meantbodyaccmagstd
+* meantbodyaccmagstd
 
 Time domain body acceleration mean 
-*meantgravityaccmagmean
+* meantgravityaccmagmean
 
 Time domain body acceleration magnitude standard deviation 
-*meantgravityaccmagstd
+* meantgravityaccmagstd
 
 Time domain body acceleration jerk magnitude mean
-*meantbodyaccjerkmagmean
+* meantbodyaccjerkmagmean
 
 Time domain body acceleration jerk magnitude standard deviation
-*meantbodyaccjerkmagstd
+* meantbodyaccjerkmagstd
 
 
 
 Time domain body acceleration jerk magnitude mwan
-*meantbodygyromagmean
+* meantbodygyromagmean
 
 Time domain body gyroscrop magnitude standard deviation
-*meantbodygyromagstd
+* meantbodygyromagstd
 
 Time domain body gyroscrop Jerk magnitude Means
-*meantbodygyrojerkmagmean
+* meantbodygyrojerkmagmean
 
 Time domain body gyroscrop Jerk standard deviation
-*meantbodygyrojerkmagstd
+* meantbodygyrojerkmagstd
 
 Frequency domain body gyroscrop Jerk standard deviation (x, y, z)
-*meanfbodyaccmeanx
-*meanfbodyaccmeany
-*meanfbodyaccmeanz
+* meanfbodyaccmeanx
+* meanfbodyaccmeany
+* meanfbodyaccmeanz
 
 Frequency domain body gyroscrop Jerk standard deviation (x, y, z)
-*meanfbodyaccstdx
-*meanfbodyaccstdy
-*meanfbodyaccstdz
+* meanfbodyaccstdx
+* meanfbodyaccstdy
+* meanfbodyaccstdz
 
 Frequency domain body Accerlation Jerk Mean (x, y, z)
-*meanfbodyaccjerkmeanx
-*meanfbodyaccjerkmeany
-*meanfbodyaccjerkmeanz
+* meanfbodyaccjerkmeanx
+* meanfbodyaccjerkmeany
+* meanfbodyaccjerkmeanz
 
 Frequency domain body Accerlation Jerk standard deviation (x, y, z)
-*meanfbodyaccjerkstdx
-*meanfbodyaccjerkstdy
-*meanfbodyaccjerkstdz
+* meanfbodyaccjerkstdx
+* meanfbodyaccjerkstdy
+* meanfbodyaccjerkstdz
 
 Frequency domain body gyroscrop Jerk mean (x, y, z)
-*meanfbodygyromeanx
-*meanfbodygyromeany
-*meanfbodygyromeanz
+* meanfbodygyromeanx
+* meanfbodygyromeany
+* meanfbodygyromeanz
 
 Frequency domain body gyroscrop Jerk mean (x, y, z)
-*meanfbodygyrostdx
-*meanfbodygyrostdy
-*meanfbodygyrostdz
+* meanfbodygyrostdx
+* meanfbodygyrostdy
+* meanfbodygyrostdz
 
 Frequency domain body accerlation magnitude mean
-*meanfbodyaccmagmean
+* meanfbodyaccmagmean
 
 Frequency domain body accerlation magnitude standard deviation
-*meanfbodyaccmagstd
+* meanfbodyaccmagstd
 
 Frequency domain body accerlation Jerkmagnitude Mean
-*meanfbodybodyaccjerkmagmean
+* meanfbodybodyaccjerkmagmean
 
 Frequency domain body accerlation Jerkmagnitude standard deviation
-*meanfbodybodyaccjerkmagstd
+* meanfbodybodyaccjerkmagstd
 
 Frequency domain body gyromscrope magnitude mean
-*meanfbodybodygyromagmean
+* meanfbodybodygyromagmean
 
 Frequency domain body gyromscrope magnitude standard deviation
-*meanfbodybodygyromagstd
+* meanfbodybodygyromagstd
 
 Frequency domain body gyromscrope Jerk Mean
-*meanfbodybodygyrojerkmagmean
+* meanfbodybodygyrojerkmagmean
 
 Frequency domain body gyromscrope Jerk Standard deviation
-*meanfbodybodygyrojerkmagstd 
+* meanfbodybodygyrojerkmagstd 
 
 #Script Description:
 1. merge the the table loaded from "\test\X_test.txt" and table from "\train\X_train.txt" as X
